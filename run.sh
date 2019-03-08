@@ -35,6 +35,9 @@ if [ -z "$JAVA_OPTS" ]; then
 echo "···································································································"
 echo "VARIABLE JAVA_OPTS NO SETEADA - INICIANDO CON VALORES POR DEFECTO"
 echo "PUEDE DEFINIR LA VARIABLE JAVA_OPTS PARA SETEAR PARAMETROS DE JAVA"
+
+JAVA_OPTS="-XX:+UseParallelGC -Dfile.encoding=UTF8 -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -XX:MinHeapFreeRatio=20 -XX:MaxHeapFreeRatio=40 -XX:+ExitOnOutOfMemoryError -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap"
+
 echo "···································································································"
 else
 echo "........................."
