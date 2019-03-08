@@ -48,7 +48,6 @@ fi
 
 echo "···································································································"
 echo "CONFIGURACIONES SETEADAS - INICIANDO SERVICIO......"
-echo "EJEMPLO: -jar mi_applicacion.jar"
 echo "···································································································"
 exec java $JAVA_OPTS -jar "$@"
 
