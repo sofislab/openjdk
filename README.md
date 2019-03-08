@@ -1,4 +1,4 @@
-# OPENJDK 8 ALPINE 3.8
+# OPENJDK 8
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
