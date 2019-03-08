@@ -10,12 +10,11 @@
 
 ### Iniciar
 
-Dillinger requires [Node.js](https://nodejs.org/) v4+ to run.
 
-Install the dependencies and devDependencies and start the server.
+Ejecutar para iniciar el servicio
 
 ```sh
-$ docker run -d -e TIMEZONE=America/Montevideo -e JAVA_OPTS= sofislab/openjdk:jdk8-alpine3.8 
+$ docker run -d -e TIMEZONE=America/Montevideo -v mi_app.jar:/app/mi_app.jar -e JAVA_OPTS= sofislab/openjdk:jdk8-alpine3.8 mi_app.jar
 ```
 
 ### Variables
