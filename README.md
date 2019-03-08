@@ -15,8 +15,9 @@ Dillinger requires [Node.js](https://nodejs.org/) v4+ to run.
 Install the dependencies and devDependencies and start the server.
 
 ```sh
-$ docker run -d -e TIMEZONE=America/Montevideo -e JAVA_OPTS= sofislab/openjdk:jdk8-alpine3.8 
+$ docker run -d -e TIMEZONE=America/Montevideo -e JAVA_OPTS= sofislab/openjdk:jdk8-alpine3.8
 ```
+Eliga el tag según el sistema operativo deseado (Centos7, alpine, etc)
 
 ### Variables
 
