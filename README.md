@@ -1,4 +1,4 @@
-# OPENJDK 8 CENTOS 7
+# OPENJDK 11 CENTOS 7
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
@@ -14,7 +14,7 @@
 Ejecutar para iniciar el servicio
 
 ```sh
-$ docker run -d -e TIMEZONE=America/Montevideo -v mi_app.jar:/app/mi_app.jar -e JAVA_OPTS= sofislab/openjdk:jdk8-alpine3.8 mi_app.jar
+$ docker run -d -e TIMEZONE=America/Montevideo -v mi_app.jar:/app/mi_app.jar -e JAVA_OPTS= sofislab/openjdk:jdk11-centos7 mi_app.jar
 ```
 
 ### Variables
